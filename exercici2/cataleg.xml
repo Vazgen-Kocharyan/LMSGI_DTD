@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+	<llista_actors>
+		<actor id="id_1001">
+			<nom>Leonardo DiCaprio</nom>
+			<edat>20</edat>
+		</actor>
+		<actor id="id_1002">
+			<nom>Kate Winslet</nom>
+		</actor>
+		<actor id="id_1003">
+			<nom>Tom Hardy</nom>
+		</actor>
+	</llista_actors>
+	<llista_pelicules>
+		<pelicula id="id_2001">
+			<titol idioma="Espanyol">Titanic</titol>
+			<director>James Cameron</director>
+			<any>1997</any>
+			<actors>
+				<actor_ref ref="id_1001"/>
+				<actor_ref ref="id_1002"/>
+			</actors>
+		</pelicula>
+		<pelicula id="id_2002">
+			<titol idioma="Angles">The Revenant</titol>
+			<director>Alejandro González Iñárritu</director>
+			<any>2015</any>
+			<actors>
+				<actor_ref ref="id_1001"/>
+				<actor_ref ref="id_1003"/>
+			</actors>
+		</pelicula>
+		<pelicula id="id_2003">
+			<titol idioma="Catala">Inception</titol>
+			<director>Christopher Nolan</director>
+			<any>2010</any>
+			<actors>
+				<actor_ref ref="id_1001"/>
+				<actor_ref ref="id_1002"/>
+				<actor_ref ref="id_1003"/>
+			</actors>
+		</pelicula>	
+	</llista_pelicules>
+	<llista_recomanacions_pelicules>
+		<recomanacio ref="id_2001"/>
+		<recomanacio ref="id_2002"/>
+	</llista_recomanacions_pelicules>
+</cataleg>
